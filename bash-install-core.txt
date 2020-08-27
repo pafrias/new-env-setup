@@ -11,4 +11,6 @@ alias vscode="open -a /Applications/Visual\ Studio\ Code.app"
 
 brew install mysql@5.7 postgresql mongo
 
-# needed: Docker, golang, postman
+brew install docker
+
+# needed: golang, postman
