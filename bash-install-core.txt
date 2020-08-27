@@ -1,0 +1,11 @@
+xcode-select --install
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)”
+
+brew cask install iterm2 visual-studio-code sublime-text
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+brew install mysql@5.7 postgresql mongo
+
+alias subl="open -a /Applications/Sublime\ Text.app"
+alias vscode="open -a /Applications/Visual\ Studio\ Code.app"

@@ -1,0 +1,13 @@
+curl -o- 
+https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+
+nvm install --lts
+
+npm i -g bluebird lodash dotenv nodemon
+npm i -g express morgan axios
+npm i -g mysql knex mongoose
+
+npm i -g vue vue-cli
+npm i -g react react-dom create-react-app
+
+npm i -g @babel/core babel-preset-env babel-cli
